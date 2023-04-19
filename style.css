@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* ------- Geral -----  */
+
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    border: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/city.jpg") no-repeat center center fixed; 
+} 
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558B;
+}
+/* ------- Login ------  */
+#login-container {
+    background-color: #ffff;
+    width: 400px;
+    margin: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 30px 0 40px 0;
+}
+
+label, input {   
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#esqueceu-senha {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #08558B;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+/* ======== Redes ======  */
+
+#redes-sociais, #redes-sociais p {
+    margin-bottom: 20px;
+}
+
+#redes-sociais i {
+    height: 40px;
+    width: 40px;
+    border-radius:50% ;
+    line-height: 40px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.fa-facebook-f {
+    background-color: #3B5998;
+  }
+  
+.fa-linkedin {
+    background-color: #0077B5;
+  }
+
+#register-container p {
+    margin: 10px;
+  }
